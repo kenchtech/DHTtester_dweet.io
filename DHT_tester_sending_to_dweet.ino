@@ -31,8 +31,8 @@
 // as the current DHT reading algorithm adjusts itself to work on faster procs.
 DHT dht(DHTPIN, DHTTYPE);
 // WiFi parameters
-const char* ssid = "kenchTech";
-const char* password = "kench1234";
+const char* ssid = "wifi name"; //Access point name
+const char* password = "password";  //wifi password
 
 // Host
 const char* host = "dweet.io";
